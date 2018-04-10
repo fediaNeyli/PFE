@@ -1,0 +1,5 @@
+projet\repositories\userRepositorie.class
+projet\entities\User.class
+projet\context\UserContext.class
+projet\controller\IndexController.class
+projet\controller\admin\UserAdminController.class
