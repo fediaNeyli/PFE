@@ -19,7 +19,7 @@ import projet.repositories.userRepositorie;
 @Controller
 @RequestMapping("admin/user")
 
-public class UserAdminController {
+public class UserController {
 
 	@Autowired
 	private userRepositorie userRepositorie;

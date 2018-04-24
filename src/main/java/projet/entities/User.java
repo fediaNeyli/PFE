@@ -22,6 +22,8 @@ public class User implements Serializable {
 	private String login;
 	private String password;
 
+	private Carte carte;
+
 	public User() {
 	}
 
@@ -90,6 +92,14 @@ public class User implements Serializable {
 
 	public void setNumCarte(Long numCarte) {
 		this.numCarte = numCarte;
+	}
+
+	public Carte getCarte() {
+		return carte;
+	}
+
+	public void setCarte(Carte carte) {
+		this.carte = carte;
 	}
 
 	/////////////
